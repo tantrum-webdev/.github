@@ -19,3 +19,7 @@ The application will use the [Scryfall API](https://scryfall.com/docs/api) to ob
 The main ambition is allowing contributors to discover new technologies and workflows while being a member of a team, without having set deadlines over iterations. 
 
 To maintain efficiency, this flexibility requires clear communication. Even though every member is free to contribute according to his own motivation and/or schedule, being part of a team still implies staying aware of projects activites and providing reviews in a timely manner.
+
+## Resources / More Information
+
+WIP for wiki
