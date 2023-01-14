@@ -1,30 +1,21 @@
-# The plan
+# Tantrum-webdev
 
-The goal is to create the same application using a different Javascript ecosystem each time.
+## Big Picture
 
-## The App
+The main goal is to let contributors explore tech stacks while building the same base application each time. This allows everyone to experience implementation differences between stacks on identical features and form their own opinion and preferences over stacks. 
 
-WIP : A Magic the Gathering deck-builder application using the [Scryfall API](https://scryfall.com/docs/api)
+Having the same application base used over multiple projects doesn't imply that every application iteration will contain the exact same features. Each new stack iteration could add / remove features, emulating what could happen to a single real app product over its lifetime.
 
-## List of stacks repos planned
+The development of the application will follow defined guidelines and structures to allow organization/code consistency between repositories. Those definitions are not set in stone and will change based on feedback between iterations.
 
-*Using Typescript if available with said library/framework.*
+## Application
 
-- Vanilla
-- React
-- Vue
-- Svelte
-- Angular
-- Solid
-- Alpine
-- Web Components
+The project will consist of a deck builder for the "Magic: The Gathering" TCG. A user will be able to check a list of created/imported decks, consult/edit them and create new ones. Those decks could also be exported to a common format to be used by other applications.
 
-*Meta frameworks (and SSR with them) might be better for a second iteration once the base technology is done eg: React first, then Remix/Next.*
+The application will use the [Scryfall API](https://scryfall.com/docs/api) to obtain card informations. Depending on features specifications this could change or other APIs could be added.
 
-## Guidelines
+## Philosophy
 
-- If possible, opt for stack dependant library if one is needed to experience its own ecosystem rather than stack-agnostic packages.
+The main ambition is allowing contributors to discover new technologies and workflows while being a member of a team, without having set deadlines over iterations. 
 
-- Opt for clean code that is easy to read and understand, performance and optimization is not the primary goal.
-
-- Regardless of the stack, include unit testing and consider separation of logic and display as much as possible.
+To maintain efficiency, this flexibility requires clear communication. Even though every member is free to contribute according to his own motivation and/or schedule, being part of a team still implies staying aware of projects activites and providing reviews in a timely manner.
