@@ -22,4 +22,4 @@ To maintain efficiency, this flexibility requires clear communication. Even thou
 
 ## Resources / More Information
 
-WIP for wiki
+[Wiki Page](https://tantrum-webdev.github.io/#/)
